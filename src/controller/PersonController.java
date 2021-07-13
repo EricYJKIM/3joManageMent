@@ -176,10 +176,7 @@ public class PersonController extends HttpServlet {
 				request.setAttribute("dlist",dlist);
 				request.getRequestDispatcher("Mypage/mypagefin.jsp").forward(request,response);
 
-				request.setAttribute("person_img",person_img); //이미지뽑기
 				
-				request.setAttribute("dog_list",dog_list);//개정보
-				request.setAttribute("dog_img", dog_img);
 				request.getRequestDispatcher("Mypage/mypagefin.jsp").forward(request,response);
 			}
 			//홈으로 !
